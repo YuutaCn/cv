@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediumStyle.css" />
+    <title>Rubin Vitaliy CV</title>
+  </head>
+
+  <body>
+    <nav>
+      <ol>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#courses">COURSES</a></li>
+        <li><a href="#languages">LANGUAGES</a></li>
+        <li><a href="#code">CODE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ol>
+    </nav>
+    <main>
+        <section id="home">
+            <article>
+                <h1>VITALIY<br>RUBIN</h1>
+                <p>
+                    Hello there, I'm a<br /><b>FrontEnd Developer</b><br />Based in Belarus,<br />Vitebsk
+                </p>
+            </article>
+
+            <aside>
+                <img src="assets/png/IMG_0877.png" alt="avatar" height="300">
+            </aside>
+
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I’d describe myself as independent and self-motivated, let me give you a
+                brief description(story). I have been interested in Web development
+                since school, always keeping an eye on new web technologies, so I
+                decided to change my profession, and begin my journey toward the IT
+                direction, to learn the most demanded technologies that need for
+                creating such different and interesting projects.
+            </p>
+        </section>
+
+        <section id="skills">
+        <h2>My Skills</h2>
+            <ol>
+                <li>FRONT-END</li>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS(ES6+)</li>
+                    <li>AngularJS</li>
+                </ol>
+                <li>BACK-END</li>
+                <ol>
+                    <li>PYTHON</li>
+                    <li>C</li>
+                    <li>C++</li>
+                </ol>
+                <li>DESIGN</li>
+                <ol>
+                    <li>PHOTOSHOP</li>
+                    <li>FIGMA</li>
+                </ol>
+                <li>OTHER</li>
+                <ol>
+                    <li>GIT</li>
+                    <li>GITHUB</li>
+                </ol>
+            </ol>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li>School №46
+                <br><i>2015</i></li>
+                <li>Vitebsk State Polytechnic Professional LyceumVitebsk State Polytechnic Professional Lyceum
+                <br><i>2019</i></li>
+            </ol>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <ol>
+                <li>RSSchool</li>
+                <li>learn.javascript.ru</li>
+                <li>Code Basic</li>
+                <li>Code Wars</li>
+                <li>YouTube</li>
+            </ol>
+        </section>
+
+        <section id="languages">
+            <ol>
+                <li><b>RUSSIAN</b> - Native</li>
+                <li><b>BELARISSIAN</b> - Native</li>
+                <li><b>ENGLISH</b> - Intermediate level</li>
+            </ol>
+        </section>
+
+        <section id="code">
+            <pre><code>
+                module.exports = function reverse (n) {
+                    var nReverse = 0;
+                    if (n > 0) {
+                        while (n != 0) {
+                        nReverse *= 10;
+                        nReverse += n % 10;
+                        n -= n % 10;
+                        n /= 10;
+                        }
+                    }
+                    else if (n < 0) {
+                        n = -n
+                        while (n != 0) {
+                            nReverse *= 10;
+                            nReverse += n % 10;
+                            n -= n % 10;
+                            n /= 10;
+                            }
+                    }
+                    return nReverse;
+                }
+            </code></pre>
+            
+        </section>
+
+        <section id="contact">
+            <ol>
+                <li>+375(333)935-935</li>
+                <li><a href="https://telegram.org/yuutacn">Telegram</a></li>
+                <li><a href="https://github.com/yuutacn">My GitHub</a></li>
+            </ol>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+
+        <footer>
+            <img src="assets/svg/github.svg" href="https://github.com/yuutacn">
+            <p>
+                © 2022 by Rubin Vitaliy
+            </p>
+        </footer>
+    </main>
+
+
+</body>
+</html>
