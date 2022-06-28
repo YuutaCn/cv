@@ -267,7 +267,16 @@
         font-weight: 700;
         margin: 10px 0px;
         font-size: 14px;
+        transition: 600ms;
+        cursor: pointer;
     }
+
+    #skills b:hover {
+        width: 105px;
+        transform: translateX(5px);
+        background-color: rgba(3, 175, 249, 0.878);
+    }
+
 
     #skills li {
         display: flex;
@@ -311,8 +320,37 @@
         margin-right: 12%;
         border-radius: 30px;
         box-shadow: inset 0px 0px 20px 
-            rgba(104, 103, 103, 0.564);
-        background-color: rgb(233, 233, 233);
+            rgba(0, 0, 0, 0.564);
+        background-color: rgb(91, 91, 91);
+        color: rgb(226, 224, 224);
+    }
+
+    .codeModule {
+        color: rgb(38, 192, 177);
+    }
+
+    .codeFunc {
+        color: rgb(35, 182, 245);
+    }
+
+    .codeWhile {
+        color: rgb(234, 121, 234);
+    }
+
+    .codeReverse {
+        color: rgb(224, 224, 109);
+    }
+
+    .codeLet {
+        color: rgb(82, 209, 251);
+    }
+
+    .codeNumber {
+        color: rgb(67, 189, 149);
+    }
+
+    .codeSc {
+        color: rgb(233, 239, 47);
     }
 
     footer {
