@@ -112,27 +112,25 @@
             <h2>Code Example</h2>
             <aside>
                 <pre><code>
-                    module.exports = function reverse (n) {
-                        var nReverse = 0;
-                        if (n > 0) {
-                            while (n != 0) {
-                            nReverse *= 10;
-                            nReverse += n % 10;
-                            n -= n % 10;
-                            n /= 10;
-                            }
-                        }
-                        else if (n < 0) {
-                            n = -n;
-                            while (n != 0) {
-                                nReverse *= 10;
-                                nReverse += n % 10;
-                                n -= n % 10;
-                                n /= 10;
-                                }
-                        }
-                        return nReverse;
-                    }
+                    <span class="codeModule">module</span>.<span class="codeModule">exports</span> = <span class="codeFunc">function</span> <span class="codeReverse">reverse</span> <span class="codeSc">(</span><span class="codeLet">n</span><span class="codeSc">)</span> <span class="codeSc">{</span>
+                        <span class="codeFunc">let</span> <span class="codeLet">nReverse</span> = <span class="codeNumber">0</span>;
+                        <span class="codeWhile">if</span> <span class="codeSc">(</span><span class="codeLet">n</span> > <span class="codeNumber">0</span><span class="codeSc">)</span> <span class="codeSc">{</span>
+                            <span class="codeWhile">while</span>  <span class="codeSc">(</span><span class="codeLet">n</span> != <span class="codeNumber">0</span><span class="codeSc">)</span> <span class="codeSc">{</span>
+                            <span class="codeLet">nReverse</span> *= <span class="codeNumber">10</span>;
+                            <span class="codeLet">nReverse</span> += <span class="codeLet">n</span> % <span class="codeNumber">10</span>;
+                            <span class="codeLet">n</span> -= <span class="codeLet">n</span> % <span class="codeNumber">10</span>;
+                            <span class="codeLet">n</span> /= <span class="codeNumber">10</span>;
+                            <span class="codeSc">}</span>
+                        <span class="codeSc">}</span> <span class="codeWhile">else if</span>  <span class="codeSc">(</span><span class="codeLet">n</span> < <span class="codeNumber">0</span><span class="codeSc">)</span> <span class="codeSc">{</span>
+                            <span class="codeLet">n</span> = -<span class="codeLet">n</span>;
+                            <span class="codeWhile">while</span>  <span class="codeSc">(</span><span class="codeLet">n</span> != <span class="codeNumber">0</span><span class="codeSc">)</span> <span class="codeSc">{</span>
+                                <span class="codeLet">nReverse</span> *= <span class="codeNumber">10</span>;
+                                <span class="codeLet">nReverse</span> += <span class="codeLet">n</span> % <span class="codeNumber">10</span>;
+                                <span class="codeLet">n</span> -= <span class="codeLet">n</span> % <span class="codeNumber">10</span>;
+                                <span class="codeLet">n</span> /= <span class="codeNumber">10</span>;
+                                <span class="codeSc">}</span>
+                        <span class="codeSc">}</span> <span class="codeWhile">return</span> <span class="codeLet">nReverse</span>;
+                    <span class="codeSc">}</span>
                 </code></pre>
             </aside>
         </section>
