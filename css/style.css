@@ -30,6 +30,7 @@
         border-radius: 40px;
         margin-left: 15%;
         margin-right: 15%;
+        margin-bottom: 70px;
     }
 
     nav {
@@ -52,13 +53,13 @@
         padding: 0px 0px 0px 0px;
         margin-top: 15px;
         margin-left: -23px;
-        background-color: rgba(253, 204, 69, 1);
+        background-color: rgb(253, 204, 69);
         box-shadow: 1px 2px 5px 
                 rgba(104, 103, 103, 0.198);
         text-decoration: none;
         font-size: 19px;
         border-radius: 30px;
-        transition: all 200ms;
+        transition: all 200ms ease-out 0s;
     }
 
     nav li:first-letter { 
@@ -75,7 +76,7 @@
         display: flex;
         padding-left: 20px;
         align-items: center;
-        background-color: rgb(245, 191, 44);
+        background-color: rgba(245, 191, 44, 0.85);
         left: -20px;
         margin-top: 15px;
         margin-left: -23px;
@@ -111,7 +112,14 @@
         height: 480px;
         background-color: rgba(147, 217, 247, 0.9);
         border-radius: 250px;
+        animation: shadow 5s infinite ease-in-out;
     }
+
+    /* @keyframes shadow {
+        from {background-color: rgba(147, 217, 247, 0.788);}
+        50% {background-color: rgba(95, 200, 245, 0.286);}
+        to {background-color: rgba(147, 217, 247, 0.789);}
+        } */
 
     #home aside {
         display: flex;
@@ -123,10 +131,9 @@
         border: 4px solid rgb(255, 214, 101);
         box-shadow: 2px 2px 20px 
             rgba(104, 103, 103, 0.198);
-        transition: 700ms;
+        transition: all 700ms ease-out 0s;
 
     }
-
     #home aside:hover {
         border: 4px solid rgba(70, 185, 234, 0.9);
         transform:translate(-10px, -5px);
@@ -153,7 +160,7 @@
         cursor: pointer;
         color: #000;
         box-shadow: 1px 1px 5px rgba(104, 103, 103, 0.198);
-        transition: 500ms;
+        transition: all 500ms ease-out 0s;
 
     }
 
@@ -267,7 +274,7 @@
         font-weight: 700;
         margin: 10px 0px;
         font-size: 14px;
-        transition: 600ms;
+        transition: all 600ms ease-out 0s;
         cursor: pointer;
     }
 
@@ -358,7 +365,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-
         background-color: rgba(25, 159, 216, 0.7);
     }
 
@@ -372,7 +378,7 @@
         padding-top: 5px;
         padding-bottom: 5px;
         cursor: pointer;
-        transition: 500ms;
+        transition: all 500ms ease-out 0s;
     }
 
     footer img:hover {
