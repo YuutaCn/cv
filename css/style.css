@@ -375,4 +375,16 @@
         transform: scale(1.1, 1.1);
     }
 
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
 }

@@ -7,12 +7,39 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/styleMedium.css" />
+    <link rel="stylesheet" href="css/styleLow.css" />
 
     <title>Rubin Vitaliy CV</title>
   </head>
 
   <body>
-    <nav>
+
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="https://github.com/yuutacn" target="_blank" id="logo">YuutaCn</a>
+          <ul class="menu" id="menu">
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#courses">COURSES</a></li>
+            <li><a href="#languages">LANGUAGES</a></li>
+            <li><a href="#code">CODE EXAMPLE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="popup" id="popup"></div>
+
+    <nav class="desktop">
       <ol>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#skills">SKILLS</a></li>
@@ -152,5 +179,6 @@
         /></a>
       </footer>
     </main>
+    <script src="js/burger.js"></script>
   </body>
 </html>
