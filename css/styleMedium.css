@@ -37,7 +37,7 @@
 
     #logo {
         display: flex;
-        margin-left: 10px;
+        margin-left: 20px;
         font-family: 'Work Sans', sans-serif;
         font-weight: 900;
         font-style: bold;
@@ -120,7 +120,7 @@
     }
 
     .hamb__field.active .bar:nth-child(1) {
-        transform: translateY(9px) rotate(45deg);
+        transform: translateY(10px) rotate(45deg);
     }
 
     .hamb__field.active .bar:nth-child(3) {
